@@ -1,0 +1,84 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(37, 67, 236), rgb(82, 99, 194));
+    color: rgb(13, 99, 184);
+}
+.divcaixa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+    
+}
+fieldset{
+    border: 3px solid dodgerblue;
+}
+legend{
+    border: 1px solid dodgerblue;
+    padding: 10px;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 8px;
+}
+
+.divinputs{
+    position: relative;
+}
+
+.inputs{
+    background: none;
+    border: none;
+    border-bottom: 1px solid dodgerblue;
+    outline: none;
+    font-size: 15px;
+    color: black;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.inputlabel{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputs:focus ~ .inputlabel,
+.inputs:valid ~.inputlabel{
+    top: -20px;
+    font-size: 12px;
+    color: rgb(6, 8, 133);
+}
+
+#data-nascimento{
+    border-color: rgb(66, 66, 66);
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    
+
+}
+
+.data{
+    font-size: 15px;
+}
+
+#submit{
+    background: rgb(0, 102, 255);
+    padding: 10px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+
+}
+#submit:hover{
+    background: rgb(64, 133, 224);
+}

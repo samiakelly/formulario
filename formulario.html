@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="divcaixa">
+        <form>
+            <fieldset>
+                <legend><b>Formulario de alunos</b></legend>
+                <br>
+                <div class = "divinputs">
+                    <input type="text" name="nome" id="nome" class="inputs" required>
+                    <label for="name" class="inputlabel">Nome completo</label>
+                </div>
+                <br>
+                <div class = "divinputs">
+                    <input type="email" name="email" id="email" class="inputs" required>
+                    <label for="email" class="inputlabel">Email</label>
+                </div>
+                <br>
+                <div class = "divinputs">
+                    <input type="text" name="telefone" id="telefone" class="inputs" required>
+                    <label for="telefone" class="inputlabel">Telefone</label>
+                </div>
+                <p>Sexo:</p>
+                <input type="radio" id="feminino" name="genero" value="feminino" required>
+                <label for="feminino">Feminino</label>
+                <br>
+                <input type="radio" id="masculino" name="genero" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <br>
+                <input type="radio" id="outro" name="genero" value="outro" required>
+                <label for="outro">Outro</label>
+                <br><br>
+                <label for="data-nascimento" class="data">Data de Nascimento</label>
+                <input type="date" name="data-nascimento" id="data-nascimento"  required>
+                <br><br>
+                <div class = "divinputs">
+                    <input type="text" name="cidae-estado" id="cidae-estado" class="inputs" required>
+                    <label for="cidae-estado" class="inputlabel">Cidade/Estado</label>
+                </div>
+                <br>
+                <div class = "divinputs">
+                    <input type="text" name="endereco" id="endereco" class="inputs" required>
+                    <label for="endereco" class="inputlabel">Endereço</label>
+                </div>
+                <br>
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
+                
+                
